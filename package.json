@@ -1,0 +1,16 @@
+{
+  "name": "hubspot-apikey-sunset",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/x-kaoki-x/hubspot-apikey-sunset.git",
+  "author": "Kazune Aoki <k.aoki@creativehope.co.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "@hubspot/api-client": "^7.1.2"
+  }
+}
