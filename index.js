@@ -1,7 +1,7 @@
 const hubspot = require('@hubspot/api-client');
 
-const apiKey = process.env.API_KEY;
-const hubspotClient = new hubspot.Client({ apiKey });
+const accessToken = process.env.ACCESS_TOKEN;
+const hubspotClient = new hubspot.Client({ accessToken });
 
 // Example call
 hubspotClient.crm.contacts.basicApi
